@@ -48,6 +48,7 @@ end
      e = b.balance
      a.balance = d + c 
      b.balance - e - c
+     @status = "reversed"
   #   binding.pry 
    else return "rejected"
  end
