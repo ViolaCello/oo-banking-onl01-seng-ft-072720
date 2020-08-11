@@ -48,7 +48,7 @@ end
     # e = b.balance
     # a.balance = d + c 
    #  b.balance - e - c
-   #  @status = "reversed"
+     @status = "reversed"
   #   binding.pry 
   a = @sender.balance 
     b = @receiver.balance 
