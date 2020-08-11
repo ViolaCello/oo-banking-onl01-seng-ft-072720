@@ -51,6 +51,7 @@ end
    #  @status = "reversed"
   #   binding.pry 
   a = @sender.balance 
+    b = @receiver.balance 
    d = @amount 
   @sender.balance = a + @amount
    @receiver.balance = b - @amount
