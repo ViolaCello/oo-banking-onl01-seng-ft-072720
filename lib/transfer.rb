@@ -50,8 +50,10 @@ end
    #  b.balance - e - c
    #  @status = "reversed"
   #   binding.pry 
-  
-  
+  a = @sender.balance 
+   d = @amount 
+  @sender.balance = a + @amount
+   @receiver.balance = b - @amount
   
   
    else return "rejected"
