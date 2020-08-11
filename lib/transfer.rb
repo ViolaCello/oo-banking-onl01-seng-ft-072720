@@ -41,15 +41,19 @@ end
  
  def reverse_transfer
    if status == "complete"
-     a = @@last_transation[0]
-     b = @@last_transation[1]
-     c = @@last_transation[2]
-     d = a.balance
-     e = b.balance
-     a.balance = d + c 
-     b.balance - e - c
-     @status = "reversed"
+   #  a = @@last_transation[0]
+    # b = @@last_transation[1]
+    # c = @@last_transation[2]
+    # d = a.balance
+    # e = b.balance
+    # a.balance = d + c 
+   #  b.balance - e - c
+   #  @status = "reversed"
   #   binding.pry 
+  
+  
+  
+  
    else return "rejected"
  end
  
